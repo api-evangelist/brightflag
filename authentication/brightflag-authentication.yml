@@ -1,0 +1,36 @@
+generated: '2026-07-18'
+method: searched
+source: https://help.brightflag.com/hc/en-us/articles/26006518363293-How-to-Get-an-API-Token-for-Brightflag
+docs: https://help.brightflag.com/hc/en-us/categories/21136642887581-API
+summary:
+  types:
+  - oauth2
+  - http
+  oauth2_flows:
+  - clientCredentials
+  api_key_in: []
+  notes: Brightflag's API uses OAuth 2.0. Clients POST to {BASE_URL}/oauth/token to
+    exchange credentials for a bearer access_token, then send that token in the HTTP
+    Authorization header on every request. The token response returns access_token,
+    token_type "bearer", an expiry, and a scope. API credentials are generated inside
+    the product admin area (Admin > API access) at the developer portal.
+schemes:
+- name: OAuth2
+  type: oauth2
+  flow: clientCredentials
+  token_endpoint: '{BASE_URL}/oauth/token'
+  token_response: access_token, token_type=bearer, expires_in, scope
+  region_specific_base_url: true
+  source: docs
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  bearer_format: JWT/opaque access token from the OAuth token endpoint
+  in: header
+  header: Authorization
+  source: docs
+credential_provisioning:
+  where: Admin > API access in the Brightflag app
+  portal: https://app.brightflag.com/developer
+  note: API tokens are self-service for admins; API-based reporting setup may require
+    contacting your Customer Success Manager.
