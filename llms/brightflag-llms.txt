@@ -1,0 +1,29 @@
+# Brightflag
+
+> Brightflag is an AI-first enterprise legal management (ELM) platform that enables corporate legal teams control legal spend, manage matters, and benchmark outside counsel. Founded 2014.
+
+## Core Product Pages
+
+- [Platform Overview](https://brightflag.com/platform/): Full ELM platform — e-billing, matter management, vendor management, reporting
+- [Brightflag AI](https://brightflag.com/brightflag-ai/): Patented AI for invoice review, spend classification, and the Ask Brightflag GenAI agent
+- [Why Brightflag](https://brightflag.com/why-brightflag/): Key differentiators, AI advantage, and customer support model
+- [Integrations](https://brightflag.com/platform/integrations/): Supported integrations with ERP, payment, and legal platforms
+
+## Company Information
+
+- [About & Leadership](https://brightflag.com/about/leadership/): Executive team and company background
+- [FAQ](https://brightflag.com/brightflag-faq/): Answers to common questions about the platform and ELM category
+- [Press Releases](https://brightflag.com/press/): Product launches, reports, and company news
+
+## Customer Evidence
+
+- [Success Stories](https://brightflag.com/success-stories/): Case studies from Docker, SMBC, Lufthansa, Dropbox, and others
+- [SMBC Case Study](https://brightflag.com/resources/smbc-outside-counsel-management/): Saved $2.7M in outside counsel spend
+- [Lufthansa Case Study](https://brightflag.com/resources/brightflag-case-study-lufthansa/): Controlled legal costs with immediate ROI
+- [Dropbox Case Study](https://brightflag.com/resources/brightflag-case-study-dropbox/): Saved thousands of hours switching e-billing systems
+
+## Key Resources
+
+- [2026 Outside Counsel Benchmarking Report](https://brightflag.com/asset/2026-outside-counsel-benchmarking-report/)
+- [Legal Operations Compensation 2026](https://brightflag.com/asset/legal-operations-compensation-2026/)
+- [What Is Legal Operations in 2026?](https://brightflag.com/resources/what-is-legal-operations/)

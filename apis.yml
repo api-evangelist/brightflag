@@ -1,7 +1,16 @@
 aid: brightflag
 name: Brightflag
-description: Brightflag is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Brightflag is an AI-first enterprise legal management (ELM) platform that helps
+  corporate legal teams control legal spend, manage matters, benchmark outside
+  counsel, and automate invoice review. Founded in 2014 and headquartered in
+  Dublin with a New York presence, Brightflag combines patented AI for invoice
+  review and spend classification with e-billing, matter management, vendor
+  management, and reporting. For developers Brightflag exposes an OAuth 2.0
+  secured REST API (OpenAPI 3.1) — including a Reporting API for extracting key
+  datasets and a Matter Budget API — to integrate legal operations data with ERP,
+  payment, and enterprise systems. This profile was enriched from Brightflag's
+  public developer documentation and help center.
 url: https://raw.githubusercontent.com/api-evangelist/brightflag/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +18,56 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://brightflag.com/favicon.ico
 tags:
 - Company
-apis: []
+- Legal
+- Legal Operations
+- Legal Spend Management
+- Enterprise Legal Management
+- E-Billing
+- Matter Management
+- Reporting
+- Artificial Intelligence
+- LegalTech
+apis:
+- name: Brightflag API
+  description: >-
+    OAuth 2.0 secured REST API (OpenAPI 3.1) for Brightflag's enterprise legal
+    management platform. Includes a Reporting API to extract key datasets and a
+    Matter Budget API, plus operations to search invoices, download invoice
+    documents, post invoice payment status, and look up matters and vendors.
+    Base URLs are region-specific and provided in the developer portal.
+  humanURL: https://enterprise.brightflag.com/developer
+  baseURL: https://enterprise.brightflag.com
+  tags:
+  - Legal
+  - Reporting
+  - E-Billing
+  properties:
+  - type: Documentation
+    url: https://help.brightflag.com/hc/en-us/categories/21136642887581-API
+  - type: APIReference
+    url: https://enterprise.brightflag.com/developer
+  - type: GettingStarted
+    url: https://help.brightflag.com/hc/en-us/articles/26006518363293-How-to-Get-an-API-Token-for-Brightflag
+  - type: Authentication
+    url: authentication/brightflag-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +76,48 @@ maintainers:
 common:
 - type: Website
   url: https://brightflag.com
+- type: DeveloperPortal
+  url: https://enterprise.brightflag.com/developer
+- type: Documentation
+  url: https://help.brightflag.com/hc/en-us/categories/21136642887581-API
+- type: APIReference
+  url: https://enterprise.brightflag.com/developer
+- type: GettingStarted
+  url: https://help.brightflag.com/hc/en-us/articles/26006518363293-How-to-Get-an-API-Token-for-Brightflag
+- type: Support
+  url: https://help.brightflag.com
+- type: GitHubOrganization
+  url: https://github.com/brightflag
+- type: Login
+  url: https://app.brightflag.com/login
+- type: StatusPage
+  url: https://status.brightflag.com
+- type: Integrations
+  url: https://brightflag.com/platform/integrations/
+- type: Compliance
+  url: https://brightflag.com/security/
+- type: Security
+  url: https://brightflag.com/security/
+- type: TrustCenter
+  url: security/brightflag-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/brightflag-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/brightflag-domain-security.yml
+- type: Authentication
+  url: authentication/brightflag-authentication.yml
+- type: Conventions
+  url: conventions/brightflag-conventions.yml
+- type: Conformance
+  url: conformance/brightflag-conformance.yml
+- type: Lifecycle
+  url: lifecycle/brightflag-lifecycle.yml
+- type: MCPServer
+  url: mcp/brightflag-mcp.yml
+- type: LLMsTxt
+  url: llms/brightflag-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://help.brightflag.com/hc/en-us/categories/21136642887581-API
+versioning:
+  scheme: api-portal-version
+  current: '1.3'
+  spec_format: OpenAPI 3.1 (OAS 3.1)
+  docs: https://enterprise.brightflag.com/developer
+  note: The Brightflag API portal advertises "OAS 3.1" version 1.3. The spec itself
+    is served behind an authenticated enterprise portal and is not publicly retrievable.
+status_page: https://status.brightflag.com
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No public deprecation policy or RFC 8594 Sunset/Deprecation header support was
+    found (2026-07-18).
+sla:
+  url: https://status.brightflag.com
+  uptime_target: null

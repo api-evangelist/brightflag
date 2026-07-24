@@ -1,0 +1,32 @@
+generated: '2026-07-18'
+method: searched
+source: https://help.brightflag.com/hc/en-us/sections/23301946473629-Brightflag-API-Guide
+authentication:
+  style: OAuth 2.0 bearer token
+  token_endpoint: '{BASE_URL}/oauth/token'
+  header: 'Authorization: Bearer <access_token>'
+  cross_link: authentication/brightflag-authentication.yml
+base_url:
+  region_specific: true
+  note: The API base URL is region-specific; the correct {BASE_URL} for your region
+    is provided in the Brightflag developer portal. Requests hit the enterprise API
+    host (e.g. https://enterprise.brightflag.com).
+reporting:
+  style: asynchronous report run
+  note: The Reporting API extracts key datasets; a report is run and its results are
+    retrieved. Invoice search and matter/vendor lookups are synchronous.
+idempotency:
+  documented: false
+  note: No idempotency-key contract is documented in the public API guide.
+pagination:
+  documented: false
+  note: Pagination parameters/response fields are not documented on the public API
+    guide (the full reference is behind the authenticated portal).
+error_envelope:
+  documented: false
+versioning:
+  cross_link: lifecycle/brightflag-lifecycle.yml
+notes: Brightflag exposes a Reporting API and a Matter Budget API. Documented operation
+  surface (via published integration connectors) includes; run a report, search invoices,
+  download invoice document, get matter by reference, get vendors list, get vendor
+  office details, and post invoice payment status.

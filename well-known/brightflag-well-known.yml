@@ -1,0 +1,43 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of Brightflag hosts
+hosts:
+- host: https://brightflag.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.brightflag.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 500
+  - path: /.well-known/openid-configuration
+    status: 500
+  - path: /.well-known/oauth-authorization-server
+    status: 500
+  - path: /.well-known/api-catalog
+    status: 500
+  - path: /.well-known/ai-plugin.json
+    status: 500
+- host: https://enterprise.brightflag.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 500
+  - path: /.well-known/openid-configuration
+    status: 500
+  - path: /.well-known/oauth-authorization-server
+    status: 500
+  - path: /.well-known/api-catalog
+    status: 500
+  - path: /.well-known/ai-plugin.json
+    status: 500
+notes: No /.well-known discovery documents are published on any Brightflag host. No
+  security.txt, OIDC discovery, RFC 8414 authorization-server metadata, api-catalog,
+  or ai-plugin.json found (2026-07-18).

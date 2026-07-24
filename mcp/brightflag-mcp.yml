@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: derived
+status: candidate
+source: https://help.brightflag.com/hc/en-us/sections/23301946473629-Brightflag-API-Guide
+note: No official Brightflag hosted/remote MCP server was found. The tool list below
+  is a CANDIDATE derived from the publicly documented Brightflag API operation surface
+  (as exposed by published integration connectors). No public OpenAPI is available
+  to ground operationIds; the full reference is behind the authenticated portal.
+server:
+  name: brightflag
+  transport: http
+tools:
+- name: run_report
+  description: Run a Brightflag report and retrieve the resulting dataset (Reporting API).
+- name: search_invoices
+  description: Search invoices in Brightflag.
+- name: download_invoice_document
+  description: Download the document for a specific invoice.
+- name: post_invoice_payment_status
+  description: Post/update the payment status of an invoice.
+- name: get_matter
+  description: Get a matter by its matter reference.
+- name: get_vendors
+  description: Get the list of vendors.
+- name: get_vendor_office
+  description: Get office details for a vendor.
