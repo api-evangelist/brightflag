@@ -2,10 +2,10 @@ generated: '2026-07-18'
 method: derived
 status: candidate
 source: https://help.brightflag.com/hc/en-us/sections/23301946473629-Brightflag-API-Guide
-note: No official Brightflag hosted/remote MCP server was found. The tool list below
-  is a CANDIDATE derived from the publicly documented Brightflag API operation surface
-  (as exposed by published integration connectors). No public OpenAPI is available
-  to ground operationIds; the full reference is behind the authenticated portal.
+note: No official Brightflag hosted/remote MCP server was found. The tool list below is a CANDIDATE derived
+  from the publicly documented Brightflag API operation surface (as exposed by published integration connectors).
+  No public OpenAPI is available to ground operationIds; the full reference is behind the authenticated
+  portal.
 server:
   name: brightflag
   transport: http
@@ -24,3 +24,9 @@ tools:
   description: Get the list of vendors.
 - name: get_vendor_office
   description: Get office details for a vendor.
+deployment:
+  mode: none
+  verified: derived
+  tools: 7
+  checked: '2026-08-12'
+  source: catalog MCP census
