@@ -40,5 +40,5 @@
     - connectors/applications/brightflag
     vendor_link: https://brightflag.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
