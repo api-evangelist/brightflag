@@ -4,6 +4,11 @@ checked:
 - https://fivetran.com/docs-sitemap.xml
 - https://fivetran.com/docs/connectors/partner-built-program
 - okta/integrations/okta-integration-edges.yml
+- https://500.co/api/startups
+- https://500.co/companies
+- https://www.antler.co/portfolio
+- https://www.techstars.com/portfolio
+- https://www.ycombinator.com/companies
 source:
 - okta/integrations/okta-integration-edges.yml
 edges:
@@ -57,3 +62,30 @@ edges:
     builder: Fivetran
   detected_by: sweep-data-integration.py
   first_seen: '2026-10-18'
+- partner_name: 500 Global
+  partner: 500-global
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://500.co/companies
+  category: accelerator portfolio participation
+  contract_reference:
+    register: 500 Global portfolio (500.co/companies; the page's own JSON 500.co/api/startups)
+    standard: null
+    spec_file: null
+    role: accelerator-portfolio-company
+    registered_name: Brightflag
+    register_id: https://500.co/companies
+    register_country: Ireland
+    register_website: brightflag.com
+    matched_domain: brightflag.com
+    matched_by: domain
+    signal_note: 'participation only: the accelerator''s own portfolio register lists the company (cohort / investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-accelerator-portfolios.py
+    detected: '2026-10-21'
+    year: '2016'
+  detected_by: sweep-accelerator-portfolios.py
+  first_seen: '2026-10-21'
