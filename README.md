@@ -64,6 +64,101 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Brightflag is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Brightflag is an AI-first enterprise legal management (ELM) platform that helps corporate legal teams control legal spend, manage matters, benchmark outside counsel, and automate invoice review. Founded in 2014 and headquartered in Dublin with a New York presence, Brightflag combines patented AI for invoice review and spend classification with e-billing, matter management, vendor management, and reporting. For developers Brightflag exposes an OAuth 2.0 secured REST API (OpenAPI 3.1) — including a Reporting API for extracting key datasets and a Matter Budget API — to integrate legal operations data with ERP, payment, and enterprise systems. This profile was enriched from Brightflag's public developer documentation and help center.
 
-Backed by: 500-global — https://brightflag.com
+**Areas:** Company · Legal · Legal Operations · Legal Spend Management · Enterprise Legal Management · E-Billing · Matter Management · Reporting · Artificial Intelligence · Legal Tech
+
+## Brightflag on APIs.io
+
+Everything profiled for Brightflag is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/brightflag/](https://apis.io/providers/brightflag/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Brightflag API](https://apis.io/apis/brightflag/brightflag-api/) — OAuth 2.0 secured REST API (OpenAPI 3.1) for Brightflag's enterprise legal management platform. Includes a Reporting API to extract key datasets and a…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [brightflag](https://apis.io/servers/brightflag/brightflag/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Brightflag Authentication](https://apis.io/security/brightflag/brightflag-authentication/)
+- [Brightflag Domain Security](https://apis.io/security/brightflag/brightflag-domain-security/)
+- [Brightflag Trust Center](https://apis.io/security/brightflag/brightflag-trust-center/)
+- [Brightflag Vulnerability Disclosure](https://apis.io/security/brightflag/brightflag-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://brightflag.com)
+- [Documentation](https://help.brightflag.com/hc/en-us/categories/21136642887581-API)
+- [Getting started](https://help.brightflag.com/hc/en-us/articles/26006518363293-How-to-Get-an-API-Token-for-Brightflag)
+- [API reference](https://enterprise.brightflag.com/developer)
+- [Support](https://help.brightflag.com)
+- [Blog](https://brightflag.com/press/)
+- [Security](https://brightflag.com/security/)
+- [Compliance](https://brightflag.com/security/)
+- [GitHub](https://github.com/brightflag)
+- [Status](https://status.brightflag.com)
+
+## API Evangelist rating
+
+**Kin Score 29.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 22.4 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/brightflag/](https://apis.io/providers/brightflag/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Brightflag: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/brightflag/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
